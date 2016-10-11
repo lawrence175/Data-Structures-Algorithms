@@ -1,0 +1,30 @@
+import java.util.Arrays
+
+/*
+Author: lawrence kisembo
+
+*/
+
+public Class InsertionSort{
+
+  public static void insertionSort(int[] array){
+       if(array == null  array.length < 2){
+       return;
+       }
+       int n = array.length;
+       for(int i = 1; i < n; i++){
+       int tmp = array[i];
+       int j = i-1;
+       while(j>= 0 && tmp < array[j]){
+       array[j+1] = array[j];
+       j--;
+       }
+       array[j+1] = tmp;
+       }
+     }
+       public static void main(String[]args){
+       int[] array = {12,35,87,26,9,28,7};
+       insertionSort(array);
+       System.out.println("Sorted array:" + Arrays.toString(array));
+       }
+  }
