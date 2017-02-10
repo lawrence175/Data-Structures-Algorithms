@@ -1,2 +1,5 @@
 # Data-Structures-Algorithms
-Any Software Engineer should know [Implementation]
+#[Implementation]
+[stack,linked lists,queue,binary treee,binary search tree,heap,hashing,graph,advanced datastructure,array,matrix]
+--------------------------------------------------------------
+Implementing stack using array and linked lists[in c & python]
